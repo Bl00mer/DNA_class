@@ -1,4 +1,4 @@
-# DNA_class
+# ORF_class
 DNA und ORF Klasse 
 
 Dieser Python-Code enthält zwei Klassen und eine Funktion.
