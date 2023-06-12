@@ -27,8 +27,8 @@ BEACHTE:
     das einige Berechnung mit hilfe von Modelen durchgeführt werden, daher kann es sein das die Werte nicht immer richtig sind. 
     Außerdem kann dieses Programm nicht Spleißen, also kann nur Prokaryonten DNA oder Eukaryonten cDNA verwendet werden.
     Für die Suche nach Open Reading Frames werden werden 'ATG' als Start Codon und 'TAG','TAA' und 'TGA' als Stopcodons verwendet. Die Minimale Länge eines ORF liebt bei 300 Nukleotiden.
-    Um die Ergebnisse plotten zu können muss matplotlib.pyplot als plt importiert werden
-    An einer Stelle der Plot Methode der DNA_Sequenz Klasse kann random importiert werden, um zufällige eigenschaften gegeieinander zu plotten
+    Um die Ergebnisse plotten zu können muss matplotlib.pyplot als plt importiert werden.
+    An einer Stelle der Plot Methode der DNA_Sequenz Klasse kann random importiert werden, um zufällige eigenschaften gegeieinander zu plotten.
 
 
 IDEEN für die Zukunft:
