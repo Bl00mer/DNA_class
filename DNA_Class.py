@@ -18,7 +18,7 @@ Für genauere Erläuterungen siehe die Kommentare und Docstrings der entsprechen
 
 Um dieses Programm (direkt) über die Windows Konsole auszuführen, musst du in das verzeichniss wechseln in dem du diesen code gespeichert hast (nutze dafür zb. den cd Befehl).
 Dann gib die Folgende Zeile ein und bestätige:
-    py -i ORF_class.py
+    py -i DNA_class.py
 
 
 BEACHTE:
@@ -576,7 +576,7 @@ class ORF():           #Um die Vererbung und die Erbreihenfolge festzulegen, mus
 
 def app():
     '''
-    Das ist die Funktion die startet sobald das Programm direkt (__name__  ==  "__main__") gestartet wird, würde man das programm über 'import ORF_class' als Modul
+    Das ist die Funktion die startet sobald das Programm direkt (__name__  ==  "__main__") gestartet wird, würde man das programm über 'import DNA_class' als Modul
     importieren (also indirekt bzw. __name__  !=  "__main__") so würde die Funktion nicht automatisch starten.
     Die Funktion fordert den User dazu auf eine DNA Sequenz einzugeben (wie den Inhalt einer Genome FASTA Datei von NCBI MIT '>Namen blablabla' Zeile!). 
     Gibt man 'Test' ein so kann ein Ordner aus dem selben Verzeichnis mit mehrere Datein (FASTA, FAS, text ect.) eingelesen werden. Der Ordner muss nur 'Testdatein' genannt werden.
